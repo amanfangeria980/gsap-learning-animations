@@ -23,3 +23,30 @@ body {
     width: 300px;
     background-color: lightseagreen;
 }
+#box3 {
+    height: 300px;
+    width: 300px;
+    background-color: lightsteelblue;
+}
+#box4 {
+    height: 300px;
+    width: 300px;
+    background-color: greenyellow;
+}
+#box5 {
+    height: 300px;
+    width: 300px;
+    background-color: lightcoral;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+#part2 {
+    display: flex;
+    gap: 50px;
+}
