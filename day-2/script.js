@@ -1,18 +1,16 @@
-gsap.from("#page2 .box", {
-    scale: 0,
-    opacity: 0,
-    rotate: 720,
-    duration: 1,
+gsap.to("#page2 h1", {
+    // transform: "translateX(-160%)",
+    x: "-160%",
     scrollTrigger: {
-        trigger: "#page2 .box",
+        // whenever we will use pin, we will trigger the parent instead of the element itself
+        // trigger: "#page2 h1",
+        trigger: "#page2",
         scroller: "body",
-        markers: true,
-        start: "top 60%",
-        end: "top 30%",
-        // either this to control animation as per your scroll or a number
-        // scrub: true,
+        // markers: true,
+        // start: "top 50%",
+        start: "top 0%",
+        end: "top -100%",
         scrub: 2,
-        //  pin the element
         pin: true,
     },
 });

@@ -1,59 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: gilroy;
-    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: #111;
 }
 
 html,
 body {
     height: 100%;
     width: 100%;
-    background-color: #111;
+    overflow-x: hidden;
 }
+
 #page1 {
     height: 100%;
     width: 100%;
-    background-color: lightblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: black;
 }
 #page2 {
     height: 100%;
     width: 100%;
-    background-color: rgb(78, 173, 245);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 50px;
-}
-h1 {
-    font-size: 50px;
-    color: black;
-    background-color: red;
-    position: relative;
-    padding: 10px;
-}
-h2 {
-    font-size: 50px;
-    color: black;
-    background-color: yellow;
-    position: relative;
-    padding: 10px;
+    background-color: rgb(117, 211, 242);
 }
 #page3 {
     height: 100%;
     width: 100%;
-    background-color: rgb(3, 189, 251);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: black;
 }
-.box {
-    height: 300px;
-    width: 300px;
-    background-color: crimson;
+
+#page2 h1 {
+    font-size: 40vw;
+    text-transform: uppercase;
 }
