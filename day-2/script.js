@@ -1,6 +1,6 @@
 gsap.to("#page2 h1", {
     // transform: "translateX(-160%)",
-    x: "-160%",
+    x: "-100%",
     scrollTrigger: {
         // whenever we will use pin, we will trigger the parent instead of the element itself
         // trigger: "#page2 h1",
@@ -9,7 +9,7 @@ gsap.to("#page2 h1", {
         // markers: true,
         // start: "top 50%",
         start: "top 0%",
-        end: "top -100%",
+        // end: "top -100%",
         scrub: 2,
         pin: true,
     },
