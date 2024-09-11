@@ -27,6 +27,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+h1 {
+    font-size: 50px;
+    color: black;
+    background-color: red;
+    position: relative;
+    padding: 10px;
+}
+h2 {
+    font-size: 50px;
+    color: black;
+    background-color: yellow;
+    position: relative;
+    padding: 10px;
 }
 #page3 {
     height: 100%;
