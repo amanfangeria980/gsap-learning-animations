@@ -7,6 +7,9 @@
     font-weight: 600;
     color: #111;
 }
+body::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
 
 html,
 body {
