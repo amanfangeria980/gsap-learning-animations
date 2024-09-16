@@ -7,3 +7,5 @@
   [View Animation](https://gsap-learning-animations-7xfq.vercel.app/)
 - **Day 4**: Moving Cursor Animation & Change Style on Image Hover
   [View Animation](https://gsap-learning-animations-ckdo.vercel.app/)
+- **Day 5**: Modern Navbar Hamburger Menu Animation
+  [View Animation](https://gsap-learning-animations-27m8.vercel.app/)
